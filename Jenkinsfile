@@ -14,7 +14,7 @@ pipeline {
         //checkout the code
         stage('checkout from scm') {
             steps {
-                git branch: 'main', url: 'https://github.com/Harpy-Cloud/DevOps-Series.git'
+                git branch: 'main', url: 'https://github.com/Ayatisonkar/jenkins-main.git'
             }
         }
         //compile every code in our project
@@ -60,9 +60,9 @@ pipeline {
                         // withCredentials([usernameColonPassword(credentialsId: 'docker', variable: 'docker_password')])
                         withCredentials([usernamePassword(credentialsId: 'docker', passwordVariable: 'docker_password', usernameVariable: 'docker_name')]) {
                             sh '''
-                             docker build -t kachio/test1 .
+                             docker build -t ayati777/test1 .
                              docker login -u $docker_name -p $docker_password
-                             docker push kachio/test1
+                             docker push ayati777/test1
                              '''
                         }
                     }
@@ -73,7 +73,7 @@ pipeline {
                     script {
                         // withCredentials([usernameColonPassword(credentialsId: 'docker', variable: 'docker_password')])
                         withCredentials([usernamePassword(credentialsId: 'docker', passwordVariable: 'docker_password', usernameVariable: 'docker_name')]) {
-                            sh 'docker run -d --name pizzaform -p 8082:8080 kachio/test1'
+                            sh 'docker run -d --name pizzaform -p 8082:8080 ayati777/test1'
                         }
                     }
                 }
