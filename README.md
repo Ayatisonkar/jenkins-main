@@ -1,1 +1,1 @@
-jenkins-sonarqube
+jenkins-sonarqube-docker
