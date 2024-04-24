@@ -1,1 +1,1 @@
-jenkins-sonarqube
+jenkins-sonarqub
