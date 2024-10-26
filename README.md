@@ -1,4 +1,4 @@
-#Jenkins: Automation Server for CI/CD
+# Jenkins: Automation Server for CI/CD
 
 Jenkins is an open-source automation server that streamlines building, testing, and deploying software projects. It supports Continuous Integration and Continuous Delivery (CI/CD), helping teams automate various stages of the software development lifecycle.
 
