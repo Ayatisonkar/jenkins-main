@@ -1,30 +1,35 @@
-Jenkins is an open-source automation server that facilitates building, testing, and deploying software projects. It supports the
-continuous integration and continuous delivery (CI/CD) principles, helping teams automate various stages of the software
-development lifecycle.
-PURPOSE
-• Compatibility Improvement:
-Jenkins helps in reducing compatibility issues between different software components by implementing measures that will ensure seamless
-integration and operation of software across different platforms and configurations.
-• Automation for Workload Reduction:
-Jenkins minimizes manual workload in the testing and deployment processes to streamline repetitive tasks and increase efficiency.
-• Accelerated Software Updates:
-Jenkins can expedite the delivery of software updates to users, by utilizing continuous integration/continuous deployment (CI/CD) pipelines for
-faster and more reliable updates.
-• Shared Defect Repository:
-To Enhance collaboration between developers and operations in identifying and resolving defects, Jenkins
-establish a shared repository accessible to both developers and operations (DevOps) for efficient tracking and resolution of software defects.
-• Early Vulnerability Identification:
-Instead of identifying and resolving vulnerabilities after they impact users, Jenkins takes security measures and conduct regular security audits to
-proactively identify and address vulnerabilities in the software development life cycle.
-• Minimum Specification required
-Minimum hardware requirements:
-• 256 MB of RAM
-• 1 GB of drive space (although 10 GB is a recommended minimum if running Jenkins as a Docker container)
-Recommended hardware configuration for a small team:
-• 4 GB+ of RAM
-• 50 GB+ of drive space
-Software requirements:
-• Java new version installed.
-• Web browser: see the Web Browser Compatibility page
+Jenkins: Automation Server for CI/CD
+Jenkins is an open-source automation server that streamlines building, testing, and deploying software projects. It supports Continuous Integration and Continuous Delivery (CI/CD), helping teams automate various stages of the software development lifecycle.
+
+Purpose
+Compatibility Improvement:
+Jenkins helps minimize compatibility issues between software components by ensuring seamless integration and operation across different platforms and configurations.
+
+Automation for Workload Reduction:
+By automating testing and deployment processes, Jenkins reduces manual workload and increases efficiency in repetitive tasks.
+
+Accelerated Software Updates:
+Jenkins enables faster and more reliable software updates through CI/CD pipelines, ensuring that updates reach users more quickly.
+
+Shared Defect Repository:
+Jenkins facilitates collaboration between development and operations (DevOps) teams with a shared repository to track and resolve software defects efficiently.
+
+Early Vulnerability Identification:
+Jenkins proactively identifies and addresses vulnerabilities with regular security audits during the software development lifecycle, helping prevent issues before they impact users.
+
+Minimum Specifications Required
+Hardware Requirements
+Minimum Hardware:
+
+256 MB of RAM
+1 GB of drive space (10 GB recommended if running Jenkins in a Docker container)
+Recommended for Small Teams:
+
+4 GB+ of RAM
+50 GB+ of drive space
+Software Requirements
+Java: Latest version installed
+Web Browser: Refer to the Web Browser Compatibility page for details on compatible browsers
+
 • For Windows operating system: Windows Support Policy
 • For Linux operating system: Linux Support Policy
